@@ -1,5 +1,18 @@
 # CHAT-APPLICATION
 
+COMPANY: CODTECH IT SOLUTIONS
+
+NAME: SREE RAMA SURYA PAVANA SAI VAISHNAVI KAPILA
+
+INTERN ID: CT04DL312
+
+DOMAIN: FULL STACK WEB DEVELOPMENT
+
+DURATION: 4 WEEKS
+
+MENTOR: NEELA SANTOSH
+
+
 description of task 3:
 This project is a real-time chat application developed using Socket.IO and Node.js, designed to facilitate instant communication between multiple users in a shared chat environment. It features essential chat functionalities such as user identification with usernames, chatroom support, message timestamps, and emoji integration, providing a comprehensive experience for users engaging in live conversations. The project was built using Visual Studio Code (VS Code) as the primary development environment, allowing for efficient code editing, testing, and debugging. The backend of the application is powered by Express.js and uses Socket.IO to handle real-time, bidirectional communication between the client and server, making it possible for users to send and receive messages instantly without refreshing the page.
 
@@ -10,4 +23,7 @@ The project’s inspiration and structure were also influenced by publicly avail
 The backend, developed with Node.js and Express, handles room logic and routes user events to appropriate sockets. The server manages user connections, disconnections, room joins, and broadcasts messages to other users in the room using Socket.IO’s built-in room functionalities. While this version stores messages in-memory, it is structured in a way that allows easy expansion, such as integrating a database like MongoDB to store chat history or user logs.
 
 In summary, this real-time chat application demonstrates a solid understanding of full-stack development with a focus on WebSocket technology. It combines responsive UI design with robust backend logic to deliver a seamless messaging experience. The use of modern development tools like VS Code, AI-based code assistants, educational video content, and open-source learning platforms contributed significantly to the completion and quality of this project. It’s a functional prototype that can be further extended into a scalable chat solution by adding features like message history, user authentication, or a typing indicator.
+
+
+output:
 
