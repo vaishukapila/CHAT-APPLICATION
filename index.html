@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Real-Time Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@4.6.3/dist/index.min.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <div id="joinForm">
+      <h2>Join Chat</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="text" id="room" placeholder="Room">
+      <button id="joinBtn">Join</button>
+    </div>
+
+    <div id="chat" style="display: none;">
+      <h3>Room: <span id="roomName"></span></h3>
+      <ul id="messages"></ul>
+      <form id="messageForm">
+        <input type="text" id="messageInput" placeholder="Type message...">
+        <button type="button" id="emojiBtn">😊</button>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
